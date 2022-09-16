@@ -13,11 +13,10 @@ from instagrapi.exceptions import (
 
 
 
-path = ""
+path = "" ##path your your files
 f = os.listdir(path) ##returns a list 
 print(type(f))
-# bot = Client()
-# bot.login(username="doverbenmc", password="4bbafhi0909")
+
 
 class Account:
     username = ""
@@ -91,7 +90,7 @@ except Exception as e:
     print(e)
     bot.dump_settings('./ig_dump.json')   #Path could be changed depending on user
 bot.handle_exception
-bot.login(username ="",password="")
+bot.login(username ="",password="") ##Enter your username and password here
 
 
 
