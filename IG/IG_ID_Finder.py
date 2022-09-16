@@ -9,7 +9,7 @@ except Exception as e:
     bot.dump_settings('./ig_dump.json')
 bot.login(username ="",password="")
 
-user_input= input("Enter the username : ")
+user_input= input("Enter the username : ") ##Enter your username and password here
 
 user_id = bot.user_id_from_username(user_input)
 
