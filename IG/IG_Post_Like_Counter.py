@@ -79,7 +79,7 @@ except Exception as e:
     print(e)
     bot.dump_settings('./ig_dump.json')
 
-bot.login(username ="",password="")
+bot.login(username ="",password="") ##Enter your username and password here
 
 time.sleep(15)
 
