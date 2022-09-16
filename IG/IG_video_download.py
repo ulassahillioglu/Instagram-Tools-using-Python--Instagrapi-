@@ -6,10 +6,9 @@ from instagrapi.exceptions import (
     FeedbackRequired, PleaseWaitFewMinutes, LoginRequired, UnknownError
 )
 imgs = []
-f = os.listdir("Images")
+f = os.listdir("") ##enter your path here
 print(type(f))
-# bot = Client()
-# bot.login(username="doverbenmc", password="4bbafhi0909")
+
 
 class Account:
     username = ""
@@ -82,7 +81,7 @@ except Exception as e:
     print(e)
     bot.dump_settings('./ig_dump.json')
 bot.handle_exception
-bot.login(username="", password="")
+bot.login(username="", password="") ##Enter your username and password here
 
 pk = bot.media_pk_from_url("")
 print(pk)
