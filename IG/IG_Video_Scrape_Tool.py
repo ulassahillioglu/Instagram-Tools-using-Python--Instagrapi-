@@ -10,9 +10,6 @@ links = [""]
 
 
 
-# bot = Client()
-# bot.login(username="doverbenmc", password="4bbafhi0909")
-
 class Account:
     username = ""
     password = ""
